@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1473106476 source:c:\users\gustavo\desktop\ejer2clase\ejerclase3\funciones.c
+
+1473106036 source:c:\users\gustavo\desktop\ejer2clase\ejerclase3\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1473106741 source:c:\users\gustavo\desktop\ejerclase3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1473102278 c:\users\gustavo\desktop\ejerclase3\funciones.h
+
