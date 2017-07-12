@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1499642604 source:c:\users\isabel\desktop\examentarjeta\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1481397318 c:\users\isabel\desktop\examentarjeta\arraylist.h
+
+1499866689 source:c:\users\isabel\desktop\examentarjeta\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"funciones.h"
+	"Tarjeta.h"
+
+1499863422 source:c:\users\isabel\desktop\examentarjeta\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1499863422 c:\users\isabel\desktop\examentarjeta\funciones.h
+
+1499866342 source:c:\users\isabel\desktop\examentarjeta\tarjeta.c
+	<stdio.h>
+	<stdlib.h>
+	"Tarjeta.h"
+	"ArrayList.h"
+	"string.h"
+	"funciones.h"
+
+1499866717 c:\users\isabel\desktop\examentarjeta\tarjeta.h
+	"ArrayList.h"
+
