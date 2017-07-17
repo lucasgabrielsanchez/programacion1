@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1500241640 source:c:\users\isabel\desktop\finallogyservices\log.c
+	"Includes.h"
+
+1500250159 source:c:\users\isabel\desktop\finallogyservices\main.c
+	"Includes.h"
+
+1500250485 source:c:\users\isabel\desktop\finallogyservices\service.c
+	"Includes.h"
+
+1499642604 source:c:\users\isabel\desktop\finallogyservices\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1481397318 c:\users\isabel\desktop\finallogyservices\arraylist.h
+
+1499863422 source:c:\users\isabel\desktop\finallogyservices\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1500234939 c:\users\isabel\desktop\finallogyservices\includes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"funciones.h"
+	"Log.h"
+	"Service.h"
+
+1499863422 c:\users\isabel\desktop\finallogyservices\funciones.h
+
+1500241569 c:\users\isabel\desktop\finallogyservices\log.h
+
+1500243895 c:\users\isabel\desktop\finallogyservices\service.h
+
+1499642604 source:c:\users\isabel\desktop\c nuevo\finallogyservices\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1481397318 c:\users\isabel\desktop\c nuevo\finallogyservices\arraylist.h
+
+1499863422 source:c:\users\isabel\desktop\c nuevo\finallogyservices\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1500325035 source:c:\users\isabel\desktop\c nuevo\finallogyservices\log.c
+	"Includes.h"
+
+1500234939 c:\users\isabel\desktop\c nuevo\finallogyservices\includes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"funciones.h"
+	"Log.h"
+	"Service.h"
+
+1499863422 c:\users\isabel\desktop\c nuevo\finallogyservices\funciones.h
+
+1500241569 c:\users\isabel\desktop\c nuevo\finallogyservices\log.h
+
+1500310348 c:\users\isabel\desktop\c nuevo\finallogyservices\service.h
+
+1500324560 source:c:\users\isabel\desktop\c nuevo\finallogyservices\main.c
+	"Includes.h"
+
+1500314242 source:c:\users\isabel\desktop\c nuevo\finallogyservices\service.c
+	"Includes.h"
+
