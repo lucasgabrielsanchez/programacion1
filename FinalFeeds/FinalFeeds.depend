@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1499642604 source:c:\users\isabel\desktop\finalfeeds\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1481397318 c:\users\isabel\desktop\finalfeeds\arraylist.h
+
+1500341892 source:c:\users\isabel\desktop\finalfeeds\usuarios.c
+	"includes.h"
+
+1500841704 source:c:\users\isabel\desktop\finalfeeds\main.c
+	"includes.h"
+
+1500341125 source:c:\users\isabel\desktop\finalfeeds\funciones.c
+	"includes.h"
+
+1500341125 c:\users\isabel\desktop\finalfeeds\usuarios.h
+
+1500341918 source:c:\users\isabel\desktop\finalfeeds\mensajes.c
+	"includes.h"
+
+1500333323 c:\users\isabel\desktop\finalfeeds\mensajes.h
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+
+1499863422 c:\users\isabel\desktop\finalfeeds\funciones.h
+
+1500341125 c:\users\isabel\desktop\finalfeeds\includes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Feeds.h"
+	"Mensajes.h"
+	"Usuarios.h"
+	"ArrayList.h"
+	"funciones.h"
+
+1500841421 c:\users\isabel\desktop\finalfeeds\feeds.h
+
+1500841982 source:c:\users\isabel\desktop\finalfeeds\feeds.c
+	"includes.h"
+
