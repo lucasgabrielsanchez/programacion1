@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1499642606 source:c:\users\isabel\desktop\tarjetadenuevo\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1481397318 c:\users\isabel\desktop\tarjetadenuevo\arraylist.h
+
+1499863424 source:c:\users\isabel\desktop\tarjetadenuevo\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1501124622 source:c:\users\isabel\desktop\tarjetadenuevo\main.c
+	"Includes.h"
+
+1501124273 c:\users\isabel\desktop\tarjetadenuevo\includes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"funciones.h"
+	"Tarjeta.h"
+
+1499863424 c:\users\isabel\desktop\tarjetadenuevo\funciones.h
+
+1501124508 source:c:\users\isabel\desktop\tarjetadenuevo\tarjeta.c
+	"Includes.h"
+
+1501124638 c:\users\isabel\desktop\tarjetadenuevo\tarjeta.h
+
