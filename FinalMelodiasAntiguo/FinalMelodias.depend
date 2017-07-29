@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1499642606 source:c:\users\isabel\desktop\finalmelodias\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1481397318 c:\users\isabel\desktop\finalmelodias\arraylist.h
+
+1501189210 source:c:\users\isabel\desktop\finalmelodias\main.c
+	"Includes.h"
+
+1501129685 c:\users\isabel\desktop\finalmelodias\includes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"funciones.h"
+	"Nota.h"
+
+1499863424 c:\users\isabel\desktop\finalmelodias\funciones.h
+
+1501128149 source:c:\users\isabel\desktop\finalmelodias\funciones.c
+	"Includes.h"
+
+1501189051 c:\users\isabel\desktop\finalmelodias\nota.h
+
+1501189051 source:c:\users\isabel\desktop\finalmelodias\nota.c
+	"Includes.h"
+
