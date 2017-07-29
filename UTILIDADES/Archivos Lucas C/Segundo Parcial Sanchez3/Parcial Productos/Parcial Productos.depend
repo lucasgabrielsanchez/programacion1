@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1481839015 source:d:\segundo parcial sanchez\parcial productos\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+
+1481363954 d:\segundo parcial sanchez\parcial productos\arraylist.h
+
+1481846593 source:d:\segundo parcial sanchez\parcial productos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Productos.h"
+	"string.h"
+
+1481846593 d:\segundo parcial sanchez\parcial productos\productos.h
+	"ArrayList.h"
+
+1481846835 source:d:\segundo parcial sanchez\parcial productos\productos.c
+	<stdio.h>
+	<stdlib.h>
+	"Productos.h"
+	"ArrayList.h"
+	"string.h"
+
+1487882456 source:c:\users\isabel\desktop\segundo parcial sanchez3\parcial productos\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+
+1481363954 c:\users\isabel\desktop\segundo parcial sanchez3\parcial productos\arraylist.h
+
+1487881967 source:c:\users\isabel\desktop\segundo parcial sanchez3\parcial productos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Productos.h"
+	"string.h"
+
+1487881179 c:\users\isabel\desktop\segundo parcial sanchez3\parcial productos\productos.h
+	"ArrayList.h"
+
+1487881191 source:c:\users\isabel\desktop\segundo parcial sanchez3\parcial productos\productos.c
+	<stdio.h>
+	<stdlib.h>
+	"Productos.h"
+	"ArrayList.h"
+	"string.h"
+

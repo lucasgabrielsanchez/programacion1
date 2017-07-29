@@ -1,0 +1,51 @@
+//con Strings
+int log_setDate(eLog *auxLog, char *date)
+{
+    int retorno = 0;
+
+    if(auxLog != NULL && date != NULL)
+    {
+        strcpy(auxLog->date,date);
+        retorno = 1;
+    }
+
+    return retorno;
+}
+
+char* log_getDate(eLog *auxLog)
+{
+    char *aux = NULL;
+    
+    if(auxLog != NULL)
+    {
+        aux = auxLog->date;
+    }
+    
+    return aux;
+}
+
+//con Enteros
+int log_setServideId(eLog *auxLog, int serviceId)
+{
+    int retorno = 0;
+
+    if(auxLog != NULL && serviceId > -1)
+    {
+        auxLog->serviceId = serviceId;
+        retorno = 1;
+    }
+
+    return retorno;
+}
+
+int log_getServideId(eLog *auxLog)
+{
+    int retorno = -1;
+
+    if(auxLog != NULL)
+    {
+        retorno = auxLog->serviceId;
+    }
+
+    return retorno;
+}

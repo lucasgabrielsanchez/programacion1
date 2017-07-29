@@ -1,0 +1,163 @@
+# depslib dependency file v1.0
+1480608180 source:c:\users\es\desktop\final laboratorio i\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1480605893 c:\users\es\desktop\final laboratorio i\arraylist.h
+
+1480569759 source:c:\users\es\desktop\final laboratorio i\temas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Temas.h"
+
+1480627027 source:c:\users\es\desktop\final laboratorio i\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Temas.h"
+	"Usuarios.h"
+	"Controller.h"
+	"funciones.h"
+
+1480567709 c:\users\es\desktop\final laboratorio i\temas.h
+
+1480612004 c:\users\es\desktop\final laboratorio i\usuarios.h
+
+1480612004 source:c:\users\es\desktop\final laboratorio i\usuarios.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Usuarios.h"
+
+1480627036 source:c:\users\es\desktop\final laboratorio i\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Controller.h"
+
+1480627027 c:\users\es\desktop\final laboratorio i\controller.h
+	"ArrayList.h"
+	"Temas.h"
+	"Usuarios.h"
+	"funciones.h"
+
+1480574278 source:c:\users\es\desktop\final laboratorio i\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1480572817 c:\users\es\desktop\final laboratorio i\funciones.h
+
+1481632812 source:c:\users\jose\desktop\ivan exam\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1481632812 c:\users\jose\desktop\ivan exam\arraylist.h
+
+1481632812 source:c:\users\jose\desktop\ivan exam\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Controller.h"
+
+1481632812 c:\users\jose\desktop\ivan exam\controller.h
+	"ArrayList.h"
+	"Temas.h"
+	"Usuarios.h"
+	"funciones.h"
+
+1481632816 c:\users\jose\desktop\ivan exam\temas.h
+
+1481632816 c:\users\jose\desktop\ivan exam\usuarios.h
+
+1481632812 c:\users\jose\desktop\ivan exam\funciones.h
+
+1481632812 source:c:\users\jose\desktop\ivan exam\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1481632816 source:c:\users\jose\desktop\ivan exam\temas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Temas.h"
+
+1481632816 source:c:\users\jose\desktop\ivan exam\usuarios.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Usuarios.h"
+
+1481738583 source:c:\users\jose\desktop\ivan exam\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Temas.h"
+	"Usuarios.h"
+	"Controller.h"
+	"funciones.h"
+
+1481786615 source:c:\users\isabel\desktop\tp ivan\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1481786637 c:\users\isabel\desktop\tp ivan\arraylist.h
+
+1481786646 source:c:\users\isabel\desktop\tp ivan\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Controller.h"
+
+1481786651 c:\users\isabel\desktop\tp ivan\controller.h
+	"ArrayList.h"
+	"Temas.h"
+	"Usuarios.h"
+	"funciones.h"
+
+1481786767 c:\users\isabel\desktop\tp ivan\temas.h
+
+1481786813 c:\users\isabel\desktop\tp ivan\usuarios.h
+
+1481786735 c:\users\isabel\desktop\tp ivan\funciones.h
+
+1481786728 source:c:\users\isabel\desktop\tp ivan\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1481786740 source:c:\users\isabel\desktop\tp ivan\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Temas.h"
+	"Usuarios.h"
+	"Controller.h"
+	"funciones.h"
+
+1481786756 source:c:\users\isabel\desktop\tp ivan\temas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Temas.h"
+
+1481786799 source:c:\users\isabel\desktop\tp ivan\usuarios.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Usuarios.h"
+

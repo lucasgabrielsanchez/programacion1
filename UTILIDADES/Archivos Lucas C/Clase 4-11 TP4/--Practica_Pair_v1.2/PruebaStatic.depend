@@ -1,0 +1,136 @@
+# depslib dependency file v1.0
+1463488858 source:k:\pruebastatic\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+
+1463488858 .h"
+
+1463488500 k:\pruebastatic\arraylist.h
+
+1463505889 source:/home/mauro/Descargas/ARRAY_LIB/LINUX_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463505431 /home/mauro/Descargas/ARRAY_LIB/LINUX_64/ArrayList.h
+
+1463505760 source:/home/mauro/Descargas/ARRAY_LIB/LINUX_64/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1463505789 /home/mauro/Descargas/ARRAY_LIB/LINUX_64/Employee.h
+
+1464384445 source:c:\users\profesor\desktop\example4_static_lib\win_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463604778 c:\users\profesor\desktop\example4_static_lib\win_64\arraylist.h
+
+1464384298 c:\users\profesor\desktop\example4_static_lib\win_64\employee.h
+
+1464384349 source:c:\users\profesor\desktop\example4_static_lib\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1464384471 source:c:\users\profesor\desktop\example4_static_lib\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1477755200 source:d:\sabri\practica_pair_v1.2\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463604778 d:\sabri\practica_pair_v1.2\arraylist.h
+
+1477755633 d:\sabri\practica_pair_v1.2\employee.h
+
+1477755220 source:d:\sabri\practica_pair_v1.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1477751347 source:d:\sabri\practica_pair_v1.2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1477837666 source:c:\users\sabrina\downloads\programacion1-master (2)\programacion1-master\practica_pair_v1.2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1477742450 c:\users\sabrina\downloads\programacion1-master (2)\programacion1-master\practica_pair_v1.2\arraylist.h
+
+1477853613 c:\users\sabrina\downloads\programacion1-master (2)\programacion1-master\practica_pair_v1.2\employee.h
+
+1477852251 source:c:\users\sabrina\downloads\programacion1-master (2)\programacion1-master\practica_pair_v1.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1477852236 source:c:\users\sabrina\downloads\programacion1-master (2)\programacion1-master\practica_pair_v1.2\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1479164299 source:c:\users\alumno.lab4pc\desktop\programacion1-master\practica_pair_v1.2\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1478895534 c:\users\alumno.lab4pc\desktop\programacion1-master\practica_pair_v1.2\arraylist.h
+
+1478895534 c:\users\alumno.lab4pc\desktop\programacion1-master\practica_pair_v1.2\employee.h
+
+1479165868 source:c:\users\alumno.lab4pc\desktop\programacion1-master\practica_pair_v1.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1478895534 source:c:\users\alumno.lab4pc\desktop\programacion1-master\practica_pair_v1.2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1479164300 source:f:\clase 4-11 tp4\--practica_pair_v1.2\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1478895534 f:\clase 4-11 tp4\--practica_pair_v1.2\arraylist.h
+
+1478895534 f:\clase 4-11 tp4\--practica_pair_v1.2\employee.h
+
+1479507490 source:f:\clase 4-11 tp4\--practica_pair_v1.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1479170274 source:f:\clase 4-11 tp4\--practica_pair_v1.2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+

@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1477018837 source:d:\workspaceprogramacion\tp_laboratorioi\tp_03_archivos-punteros\tp_3_cascara\tp_3_cascara\funciones.c
+	<stdio.h>
+	"funciones.h"
+
+1477016827 d:\workspaceprogramacion\tp_laboratorioi\tp_03_archivos-punteros\tp_3_cascara\tp_3_cascara\funciones.h
+
+1477018304 source:d:\workspaceprogramacion\tp_laboratorioi\tp_03_archivos-punteros\tp_3_cascara\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"funciones.h"
+
+1477072724 source:c:\users\isabel\desktop\tp_03_archivos-punteros\tp_03_archivos-punteros\tp_3_cascara\tp_3_cascara\funciones.c
+	<stdio.h>
+	"funciones.h"
+
+1477072724 c:\users\isabel\desktop\tp_03_archivos-punteros\tp_03_archivos-punteros\tp_3_cascara\tp_3_cascara\funciones.h
+
+1477072724 source:c:\users\isabel\desktop\tp_03_archivos-punteros\tp_03_archivos-punteros\tp_3_cascara\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"funciones.h"
+

@@ -1,0 +1,7 @@
+crtl+shift+c = comentar;
+crtl+shift+x = descomentar;
+crtl+j = auto generación de códigos;
+ctrl+e = marca todas las palabras del mismo nombre y permite renombrarlas;
+ctrl+shift+n = genera un nuevo archivo.
+ctrl+shift+s = guarda los cambios.
+system("MODE CON: LINES=2000") = permite agrandar el buffer que usa la consola para mostrar elementos.

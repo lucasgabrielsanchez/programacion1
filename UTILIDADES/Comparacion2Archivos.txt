@@ -1,0 +1,70 @@
+int crearArraylist(ArrayList *pEstructura)
+{
+    int retorno = 0;
+    int cont = 0;
+    eEstructura *auxEstructura;
+    FILE *archivo;
+    FILE *archivo2;
+    char auxNombre[5];
+    char auxNombre2[5];
+    char auxNumero[11];
+    char auxCalle[11];
+    char auxTelefono[11];
+
+    ///Verifico que el arraylist no sea nulo.
+    if(pEstructura!=NULL)
+    {
+        ///Si contiene elementos lo vacío para cargarlo limpio.
+        if(al_len(pEstructura) != 0)
+        {
+            al_clear(pEstructura);
+        }
+
+        archivo=fopen("Persona.txt","r");
+
+        ///verifico que el archivo no sea nulo.
+        if(archivo!=NULL)
+        {
+            ///Mientras NO sea el final del archivo, se leerá el mismo.
+            while(!feof(archivo))
+            {
+                fscanf(archivo,"%[^;];%[^;];%[^\n]\n",auxNombre,auxCalle,auxTelefono);
+
+                archivo2=fopen("Datos.txt","r");
+
+                while(!feof(archivo2))
+                {
+                    fscanf(archivo2,"%[^=]=%[^\n]\n",auxNombre2,auxNumero);
+
+                    ///uso esto para determinar que se leyo al menos una linea de ambos archivos.
+                    if(!cont)
+                    {
+                    cont=1;
+                    }
+
+                    if(strcmp(auxNombre,auxNombre2) == 0)
+                    {
+                        auxEstructura = new_estructura();
+
+                        persona_setNombre(auxEstructura,auxNombre);
+                        persona_setNumero(auxEstructura,atoi(auxNumero));
+                        nota_setCalle(auxEstructura,atoi(auxCalle));
+                        nota_setTelefono(auxEstructura,atoi(auxTelefono));
+
+                        al_add(pEstructura,auxEstructura);
+                    }
+                }
+
+            }
+        }
+        fclose(archivo);
+        fclose(archivo2);
+
+        ///si el cont es 1, significa que se leyó aunque sea una línea.
+        if(cont)
+        {
+            retorno=1;
+        }
+    }
+    return retorno;
+}

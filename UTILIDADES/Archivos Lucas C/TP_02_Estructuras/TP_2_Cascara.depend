@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1474158813 source:d:\workspaceprogramacion\laboratorioi_tps_cascaras\tp_02_cascara\tp_2_cascara\funciones.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1474158848 d:\workspaceprogramacion\laboratorioi_tps_cascaras\tp_02_cascara\tp_2_cascara\funciones.h
+
+1474157350 source:d:\workspaceprogramacion\laboratorioi_tps_cascaras\tp_02_cascara\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1474596872 source:d:\workspaceprogramacion\tp_laboratorioi\tp_02_estructuras\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1474599564 d:\workspaceprogramacion\tp_laboratorioi\tp_02_estructuras\funciones.h
+
+1474597014 source:d:\workspaceprogramacion\tp_laboratorioi\tp_02_estructuras\funciones.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1474585924 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp_laboratorio_1-master\tp_02_estructuras\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1474678004 c:\users\alumno\downloads\tp_laboratorio_1-master\tp_laboratorio_1-master\tp_02_estructuras\funciones.h
+
+1474679531 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp_laboratorio_1-master\tp_02_estructuras\funciones.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1474585924 source:c:\users\sabrina\downloads\tp_laboratorio_1-master\tp_laboratorio_1-master\tp_02_estructuras\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1474685224 c:\users\sabrina\downloads\tp_laboratorio_1-master\tp_laboratorio_1-master\tp_02_estructuras\funciones.h
+
+1474685278 source:c:\users\sabrina\downloads\tp_laboratorio_1-master\tp_laboratorio_1-master\tp_02_estructuras\funciones.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1477072724 source:c:\users\isabel\desktop\tp_02_estructuras\funciones.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1477072724 c:\users\isabel\desktop\tp_02_estructuras\funciones.h
+
+1480618622 source:c:\users\isabel\desktop\tp_02_estructuras\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

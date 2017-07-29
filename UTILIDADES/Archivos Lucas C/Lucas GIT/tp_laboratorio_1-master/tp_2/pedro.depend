@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1475276179 source:c:\users\alumno\desktop\pedroo\pedro\fun.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fun.h"
+
+1475276063 c:\users\alumno\desktop\pedroo\pedro\fun.h
+
+1475279789 source:c:\users\alumno\desktop\pedroo\pedro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fun.h"
+
+1475476295 source:c:\users\lucas\desktop\pedroo\pedro\fun.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fun.h"
+
+1475476096 c:\users\lucas\desktop\pedroo\pedro\fun.h
+
+1475476426 source:c:\users\lucas\desktop\pedroo\pedro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fun.h"
+
+1475476295 source:c:\users\lucas\desktop\tp_2\fun.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fun.h"
+
+1475476096 c:\users\lucas\desktop\tp_2\fun.h
+
+1475476426 source:c:\users\lucas\desktop\tp_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fun.h"
+
+1480626397 source:c:\users\isabel\desktop\lucas git\tp_laboratorio_1-master\tp_2\fun.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fun.h"
+
+1480626791 c:\users\isabel\desktop\lucas git\tp_laboratorio_1-master\tp_2\fun.h
+
+1480625441 source:c:\users\isabel\desktop\lucas git\tp_laboratorio_1-master\tp_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fun.h"
+

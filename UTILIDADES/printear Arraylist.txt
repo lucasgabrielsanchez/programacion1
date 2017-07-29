@@ -1,0 +1,15 @@
+void log_prinAll(ArrayList *pLog)
+{
+    int i;
+	
+    if(pLog != NULL)
+    {
+       for (i=0;i<al_len(pLog);i++)
+       {
+           eLog *auxLog = al_get(pLog,i);
+
+           printf("Date: %s\nTime: %s\nServiceId: %d\nGravedad: %d\nMsg: %.30s\n\n",log_getDate(auxLog),log_getTime(auxLog),
+           log_getServideId(auxLog),log_getGravedad(auxLog),log_getMsg(auxLog));
+       }
+    }
+}

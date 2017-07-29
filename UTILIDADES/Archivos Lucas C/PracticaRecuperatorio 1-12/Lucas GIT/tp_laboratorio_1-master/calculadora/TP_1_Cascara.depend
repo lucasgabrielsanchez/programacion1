@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1472850364 source:c:\users\gustavo\desktop\asdtp_1_cascara\funciones.c
+
+1472848509 source:c:\users\gustavo\desktop\asdtp_1_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1472848509 c:\users\gustavo\desktop\asdtp_1_cascara\funciones.h
+
+1473461008 source:c:\users\gustavo\desktop\d\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1473460876 source:c:\users\gustavo\desktop\d\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1473457235 c:\users\gustavo\desktop\d\funciones.h
+
+1473460876 source:c:\users\gustavo\desktop\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1473457235 c:\users\gustavo\desktop\calculadora\funciones.h
+
+1473467672 source:c:\users\gustavo\desktop\calculadora\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1473475487 source:c:\users\gustavo\desktop\calcv2\calcv2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1473472368 source:c:\users\gustavo\desktop\calcv2\calcv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1473471238 c:\users\gustavo\desktop\calcv2\calcv2\funciones.h
+

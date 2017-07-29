@@ -1,0 +1,152 @@
+# depslib dependency file v1.0
+1480459596 source:d:\workspaceprogramacion\modeloparciales\tp_materias\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+	"controller.h"
+
+1480467084 d:\workspaceprogramacion\modeloparciales\tp_materias\arraylist.h
+
+1481230984 d:\workspaceprogramacion\modeloparciales\tp_materias\controller.h
+	"Materias.h"
+	"ArrayList.h"
+
+1481299248 source:d:\workspaceprogramacion\modeloparciales\tp_materias\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Materias.h"
+	"ArrayList.h"
+	"Controller.h"
+	"utn.h"
+
+1481298254 d:\workspaceprogramacion\modeloparciales\tp_materias\materias.h
+
+1481298411 source:d:\workspaceprogramacion\modeloparciales\tp_materias\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Controller.h"
+	"utn.h"
+
+1481298322 source:d:\workspaceprogramacion\modeloparciales\tp_materias\materias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Materias.h"
+	"ArrayList.h"
+	"Controller.h"
+
+1481297745 source:d:\workspaceprogramacion\modeloparciales\tp_materias\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1475961036 d:\workspaceprogramacion\modeloparciales\tp_materias\utn.h
+
+1480459596 source:d:\workspaceprogramacion\laboratorioi_tps_cascaras\tp_materias_v2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+	"controller.h"
+
+1480467084 d:\workspaceprogramacion\laboratorioi_tps_cascaras\tp_materias_v2\arraylist.h
+
+1481375158 d:\workspaceprogramacion\laboratorioi_tps_cascaras\tp_materias_v2\controller.h
+	"Materias.h"
+	"ArrayList.h"
+
+1481375429 d:\workspaceprogramacion\laboratorioi_tps_cascaras\tp_materias_v2\materias.h
+
+1481379969 source:d:\workspaceprogramacion\laboratorioi_tps_cascaras\tp_materias_v2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Controller.h"
+	"utn.h"
+
+1475961036 d:\workspaceprogramacion\laboratorioi_tps_cascaras\tp_materias_v2\utn.h
+
+1481345745 source:d:\workspaceprogramacion\laboratorioi_tps_cascaras\tp_materias_v2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1481376936 source:d:\workspaceprogramacion\laboratorioi_tps_cascaras\tp_materias_v2\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Materias.h"
+	"ArrayList.h"
+	"Controller.h"
+	"utn.h"
+
+1481376186 source:d:\workspaceprogramacion\laboratorioi_tps_cascaras\tp_materias_v2\materias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Materias.h"
+	"ArrayList.h"
+	"Controller.h"
+
+1481363954 source:c:\users\isabel\desktop\tp_materias_v2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+	"controller.h"
+
+1481363954 c:\users\isabel\desktop\tp_materias_v2\arraylist.h
+
+1481363954 c:\users\isabel\desktop\tp_materias_v2\controller.h
+	"Materias.h"
+	"ArrayList.h"
+
+1481363954 c:\users\isabel\desktop\tp_materias_v2\materias.h
+
+1481363954 source:c:\users\isabel\desktop\tp_materias_v2\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Materias.h"
+	"ArrayList.h"
+	"Controller.h"
+	"utn.h"
+
+1481363954 c:\users\isabel\desktop\tp_materias_v2\utn.h
+
+1481363954 source:c:\users\isabel\desktop\tp_materias_v2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Controller.h"
+	"utn.h"
+
+1481363954 source:c:\users\isabel\desktop\tp_materias_v2\materias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Materias.h"
+	"ArrayList.h"
+	"Controller.h"
+
+1481363954 source:c:\users\isabel\desktop\tp_materias_v2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+

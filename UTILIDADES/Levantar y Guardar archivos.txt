@@ -1,0 +1,100 @@
+//levantar arrayList
+int cargaEstructura(ArrayList *arrayDeEstructuras)
+{
+    int retorno = 0;
+    ///contador que utilizaré para saltear la primer línea del archivo.
+    int cont = 0;
+    eEstructura *auxEstructuras;
+    FILE *archivo;
+    char auxId[51];
+    char auxNick[51];
+    char auxFollowers[51];
+
+    ///Verifico que el arraylist no sea nulo.
+    if(arrayDeEstructuras!=NULL)
+    {
+        ///Si contiene elementos lo vacío para cargarlo limpio.
+        if(al_len(arrayDeEstructuras) != 0)
+        {
+            al_clear(arrayDeEstructuras);
+        }
+
+        archivo=fopen("archivo.txt","r");
+        ///verifico que el archivo no sea nulo.
+        if(archivo!=NULL)
+        {
+            ///Mientras NO sea el final del archivo, se leerá el mismo.
+            while(!feof(archivo))
+            {
+                fscanf(archivo,"%[^,],%[^,],%[^\n]\n",auxId,auxNick,auxFollowers);
+
+		///esto provoca que la primer línea no sea leída, cuando un archivo tiene datos que no nos 		sirven en dicha línea.
+                if(!cont)
+                {
+                    cont=1;
+                    continue;
+                }
+
+                auxUsuario=new_usuario();
+
+                usuario_setId(auxUsuario,atoi(auxId));
+                usuario_setNick(auxUsuario,auxNick);
+                usuario_setFollowers(auxUsuario,atoi(auxFollowers));
+
+                al_add(pLogs,auxUsuario);
+            }
+        }
+        fclose(archivo);
+
+	///si el cont es 1, significa que se leyó aunque sea una línea.
+        if(cont)
+	{
+            retorno=1;
+	}
+    }
+    return retorno;
+}
+
+//guardar archivo con Arraylist
+int guardarFeed (ArrayList* pFeed)
+{
+    int returnAux = 0;
+    FILE *f;
+    eFeed* auxFeed;
+    int i;
+
+    if(pFeed != NULL)
+    {
+        f = fopen("feed.csv","w");
+
+        if(f!=NULL)
+        {
+            auxFeed = new_feed();
+
+            for(i=0;i<al_len(pFeed);i++)
+            {
+                auxFeed = al_get(pFeed,i);
+                if(i==0)
+                {
+                    fprintf(f,"%s,%s,%s,%s,%s,%s\n","IdMensaje","Mensaje","Likes","IdUsuario","Nick","Followers");
+                }
+                fprintf(f,"%d,%.20s,%d,%d,%s,%d\n",feed_getIdMensaje(auxFeed),feed_getMensaje(auxFeed),feed_getLikes(auxFeed),feed_getIdUsuario(auxFeed),feed_getNick(auxFeed),feed_getFollowers(auxFeed));
+            }
+            returnAux=1;
+        }
+        fclose(f);
+    }
+    return returnAux;
+}
+
+//guardar archivo por ráfaga, por línea
+
+f = fopen("errors.txt","a");
+
+if(f!=NULL)
+{
+                        ///creo el archivo y lo pongo en modo a para que agregue los datos que va leyendo, sino, se pisarían los datos.
+   fprintf(f,"%s,%s,%s,%s,%s\n",log_getDate(auxLog),log_getTime(auxLog),service_getName(auxService),
+           log_getMsg(auxLog),service_getEmail(auxService));
+}
+fclose(f);

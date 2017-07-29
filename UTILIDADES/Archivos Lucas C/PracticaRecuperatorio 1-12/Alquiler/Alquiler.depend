@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1480640540 source:c:\users\alumno\desktop\alquiler\functions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"functions.h"
+
+1480640527 c:\users\alumno\desktop\alquiler\functions.h
+
+1480640876 source:c:\users\alumno\desktop\alquiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	"functions.h"
+	<string.h>
+	<ctype.h>
+

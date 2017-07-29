@@ -1,0 +1,128 @@
+//Para validar datos
+void evaluarGravedad(ArrayList *pLogs, ArrayList *pServices)
+{
+    ///contadores para los for.
+    int i,j;
+    ///Puntero a file con el que escribiré los archivos.
+    FILE *f;
+    ///extructuras auxiliares donde guardaré los elementos leidos de los ArrayList.
+    eLog *auxLog = new_eLog();
+    eService *auxService = new_service();;
+
+    ///en el for mas grande recorro los servicios
+    for (i=0;i<al_len(pServices);i++)
+    {
+        ///traigo los datos del primer servicio leído
+        auxService = al_get(pServices,i);
+
+        ///Este contador lo uso para ver que servicio tiene mas fallos.
+        contFallos = 0;
+
+        ///en el for mas chico recorro los logs, por cada dato leido del Service, se leeran todos los del log, para compararse
+        ///entre si y encontrar igualdad entre ServiceId de los Services y el ID de los logs.
+        for(j=0;j<al_len(pLogs);j++)
+        {
+            auxLog = al_get(pLogs,j);
+
+            ///si los ID de ambas estructuras son iguales, procedo a evaluar los valores de gravedad de los errores.
+            if(auxService->id == auxLog->serviceId)
+            {
+                contFallos++;
+
+                if(auxLog->gravedad < 3)
+                {
+                    menorA3++;
+                }
+                else if(auxLog->gravedad == 3)
+                {
+                    ///creo el archivo y lo pongo en modo a para que agregue los datos que va leyendo, sino, se pisarían los datos.
+                    f = fopen("warnings.txt","a");
+                    if(f!=NULL)
+                    {
+                        fprintf(f,"%s,%s,%s,%s,%s\n",log_getDate(auxLog),log_getTime(auxLog),service_getName(auxService),
+                                log_getMsg(auxLog),service_getEmail(auxService));
+                    }
+                    fclose(f);
+
+                    igualA3++;
+                }
+                else if(auxLog->gravedad > 3 && auxLog->gravedad < 8)
+                {
+                    printf("Fecha %s\nHora: %s\nNombre de Servicio: %s\nMensaje: %s\nGravedad: %d\n\n",log_getDate(auxLog),
+                           log_getTime(auxLog),service_getName(auxService),log_getMsg(auxLog),log_getGravedad(auxLog));
+
+                    entre4Y7++;
+                }
+                else if(auxLog->gravedad > 7)
+                {
+                    f = fopen("errors.txt","a");
+                    if(f!=NULL)
+                    {
+                        ///creo el archivo y lo pongo en modo a para que agregue los datos que va leyendo, sino, se pisarían los datos.
+                        fprintf(f,"%s,%s,%s,%s,%s\n",log_getDate(auxLog),log_getTime(auxLog),service_getName(auxService),
+                                log_getMsg(auxLog),service_getEmail(auxService));
+                    }
+                    fclose(f);
+
+                    mayorA7++;
+                }
+            }
+        }
+        ///a partir de acá, evalúo el servicio con más fallos, si i==0 (osea la primer vuelta del for mas grande),
+        ///les doy un valor inicial al contador y al nombre para que tengan un valor inicial por el cual
+        ///el resto de los elementos puedan compararse.
+        if(i==0)
+        {
+            servMasFallos = contFallos;
+            nombreServicioMasFallos = auxService->name;
+        }
+        ///Luego, si el contador de fallos es mas grande que el servicio con mas fallos guardado anterioremente, este nuevo
+        ///contador indicará que este nuevo servicio tiene mas fallos que el anterior y lo pisará.
+        else if(contFallos>servMasFallos)
+        {
+            servMasFallos = contFallos;
+            nombreServicioMasFallos = auxService->name;
+        }
+    }
+}
+
+//para armar otro arraylist
+void crearFeed(ArrayList *pUsuarios, ArrayList *pMensajes, ArrayList *pFeeds)
+{
+    int i,j;
+    eMensaje *auxMensaje = new_mensaje();
+    eUsuario *auxUsuario = new_usuario();
+    eFeed *auxFeed;
+
+    if(pUsuarios != NULL && pMensajes != NULL && pFeeds != NULL)
+    {
+        if(!al_isEmpty(pFeeds))
+        {
+            al_clear(pFeeds);
+        }
+
+        for (i=0 ; i<al_len(pMensajes) ; i++)
+        {
+            auxMensaje = al_get(pMensajes,i);
+
+                for (j=0 ; j<al_len(pUsuarios) ; j++)
+                {
+                    auxUsuario = al_get(pUsuarios,j);
+
+                    if(auxMensaje->id_usuario == auxUsuario->id)
+                    {
+                        auxFeed = new_feed();
+
+                        feed_setIdMensaje(auxFeed,auxMensaje->id_mensaje);
+                        feed_setMensaje(auxFeed,auxMensaje->mensaje);
+                        feed_setLikes(auxFeed,auxMensaje->likes);
+                        feed_setIdUsuario(auxFeed,auxUsuario->id);
+                        feed_setNick(auxFeed,auxUsuario->nick);
+                        feed_setFollowers(auxFeed,auxUsuario->followers);
+
+                        al_add(pFeeds,auxFeed);
+                    }
+                }
+        }
+    }
+}

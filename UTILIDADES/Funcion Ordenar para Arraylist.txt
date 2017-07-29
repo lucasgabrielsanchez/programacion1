@@ -1,0 +1,86 @@
+//funcion enteros
+int compareFeed(void* inputA, void* inputB)
+{
+    int returnAux = 0;
+    if(inputA != NULL && inputB != NULL)
+    {
+        int followersA = getFollowersFeed(inputA);
+        int followersB = getFollowersFeed(inputB);
+        int likesA = getLikesFeed(inputA);
+        int likesB = getLikesFeed(inputB);
+        if(followersA>followersB)
+        {
+            returnAux=1;
+        }
+        else if(followersA<followersB)
+        {
+            returnAux=-1;
+        }
+        else if(followersA==followersB)
+        {
+            if(likesA < likesB)
+            {
+                returnAux=-1;
+            }
+            else if(likesA > likesB)
+            {
+                returnAux=1;
+            }
+        }
+    }
+    return returnAux;
+}
+
+//llamada
+
+al_sort(pFeeds,compararFeeds,0)
+
+//funcion enteros
+int compararTarjetas(void* inputA, void* inputB)
+{
+    int returnAux = 0;
+    if(inputA != NULL && inputB != NULL)
+    {
+        int tipoTarjetaA = getTarjeta(inputA);
+        int tipoTarjetaB = getTarjeta(inputB);
+
+        if(tipoTarjetaA>tipoTarjetaB)
+        {
+            returnAux=1;
+        }
+        else if(tipoTarjetaA<tipoTarjetaB)
+        {
+            returnAux=-1;
+        }
+    }
+    return returnAux;
+}
+
+//llamada
+
+al_sort(pTarjetas,compararTarjetas,1);
+
+
+//funcion strings
+int compararNotas(void* inputA, void* inputB)
+{
+    int returnAux = 0;
+    if(inputA != NULL && inputB != NULL)
+    {
+        char *NombreA = nota_getNombre(inputA);
+        char *NombreB = nota_getNombre(inputB);
+
+        if(strcmp(NombreA,NombreB)>0)
+        {
+            returnAux=1;
+        }
+        else if(strcmp(NombreA,NombreB)<0)
+        {
+            returnAux=-1;
+        }
+    }
+    return returnAux;
+}
+
+//llamada
+al_sort(pNotas, compararNotas,1);
